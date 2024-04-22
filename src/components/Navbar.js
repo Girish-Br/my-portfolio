@@ -38,11 +38,11 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Tilt>
-          <Navbar.Brand href="/" className="d-flex" style={{ borderRadius: "82% 18% 86% 14% / 60% 74% 26% 40%" }}>
+        <Navbar.Brand className="d-flex" style={{ borderRadius: "82% 18% 86% 14% / 60% 74% 26% 40%" }}>
+          <Tilt>
             <img src={tabLogo} className="img-fluid logo" alt="brand" />
-          </Navbar.Brand>
-        </Tilt>
+          </Tilt>
+        </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
