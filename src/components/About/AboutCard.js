@@ -12,10 +12,9 @@ function AboutCard() {
             Hi Everyone, I am <span className="green">Girish BR </span>
             from <span className="green"> Karnataka, India.</span>
             <br />
-            I am currently employed as a Lead developer at Tecnotree Corporation.
+            I am currently employed as a Custom Software Engineering Senior Analyst at Accenture.
             <br />
             I have completed Bachelor of Engineering in Information Science from Visvesvaraya Technological University
-            <br />
             <br />
             Apart from coding, I love to!
           </p>
@@ -30,7 +29,6 @@ function AboutCard() {
           <p style={{ color: "#90ee90" }}>
             "I aim to create or contribute to projects, ideas, or initiatives that have a positive impact or bring about meaningful change."{" "}
           </p>
-          <footer>- Girish BR</footer>
         </blockquote>
       </Card.Body>
     </Card>

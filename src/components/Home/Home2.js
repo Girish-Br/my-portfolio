@@ -22,7 +22,7 @@ function Home2() {
               <br />
               <br />I am good in
               <i>
-                <b className="green"> Javascript, Python and Java. </b>
+                <b className="green"> Html, CSS, Javascript, React, Node.js and Python. </b>
               </i>
               <br />
               <br />

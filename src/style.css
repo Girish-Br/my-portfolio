@@ -82,7 +82,7 @@ button:focus {
 .navbar {
   position: fixed !important;
   transition: all 0.3s ease-out 0s !important;
-  padding: 0.3rem 2rem !important;
+  padding: 0.3rem 1.8rem !important;
   font-size: 1.2rem !important;
 }
 
@@ -139,8 +139,8 @@ button:focus {
 
 @media (max-width: 767px) {
   .navbar {
-    padding: 1rem 2rem !important;
-    font-size: 1.4rem !important;
+    padding: 0.3rem 1rem !important;
+    font-size: 1rem !important;
     background-color: #20202c !important;
   }
   .navbar-nav .nav-item a::after {
@@ -247,7 +247,7 @@ button:focus {
 }
 
 .home-header {
-  padding-top: 80px !important;
+  padding-top: 40px !important;
 }
 
 .home-section {
@@ -260,7 +260,7 @@ button:focus {
 }
 
 .home-content {
-  padding: 9rem 0 2rem !important;
+  padding: 3.5rem 0 2rem !important;
   color: whitesmoke;
   text-align: left;
 }
@@ -287,6 +287,21 @@ button:focus {
 .Typewriter__cursor {
   font-size: 2.4em !important;
   color: #90ee90 !important;
+}
+
+/* Responsive image for Home.js */
+.home-main-img {
+  border-radius: 37% 63% 71% 29% / 30% 37% 63% 70%;
+  max-height: 400px;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .home-main-img {
+    max-height: 250px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -317,7 +332,7 @@ button:focus {
 .home-about-section {
   position: relative;
   padding-bottom: 70px !important;
-  padding-top: 70px !important;
+  padding-top: 20px !important;
 }
 
 .home-about-description {
@@ -328,7 +343,7 @@ button:focus {
 }
 
 .home-about-body {
-  padding-top: 50px;
+  padding-top: 30px;
   font-size: 1.2em !important;
   text-align: left;
 }
@@ -398,12 +413,15 @@ button:focus {
 /* --------- */
 /* Footer */
 /* --------- */
-.footer {
-  position: fixed;
-  background-color: #000000  ;
-  bottom: 0 !important;
-  padding-top: 6px !important;
-  padding-bottom: 6px !important ;
+  .footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0 !important;
+    background-color: #000000;
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
+    z-index: 1000;
 }
 .footer-copywright {
   text-align: center !important;
@@ -444,13 +462,13 @@ button:focus {
 /* --------- */
 .project-section {
   position: relative !important;
-  padding-top: 150px !important;
+  padding-top: 60px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
 }
 
 .project-card {
-  padding-top: 50px !important;
+  padding-top: 20px !important;
   padding-bottom: 50px !important;
   padding-left: 25px !important;
   padding-right: 25px !important;
@@ -505,7 +523,7 @@ button:focus {
 
 .about-section {
   position: relative !important;
-  padding-top: 150px !important;
+  padding-top: 50px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
@@ -565,14 +583,14 @@ button:focus {
 
 .resume-section {
   position: relative !important;
-  padding-top: 110px !important;
+  padding-top: 80px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
 }
 
 .resume {
-  padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 50px;
   justify-content: center;
 }

@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,

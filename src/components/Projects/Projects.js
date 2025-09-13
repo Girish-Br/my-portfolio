@@ -1,13 +1,7 @@
-import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import github from "../../Assets/github.png";
 
 function Projects() {
   return (
@@ -15,7 +9,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My <strong className="green">Works </strong>
+          My <strong className="green">Work </strong>
         </h1>
         <p style={{ color: "white" }}>
         Here's a glimpse of the projects I've been involved in recently.
@@ -23,7 +17,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={github}
               isBlog={false}
               title="Click on to open GitHub repositories"
               ghLink="https://github.com/Girish-Br"

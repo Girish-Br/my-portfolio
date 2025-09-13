@@ -1,5 +1,6 @@
-.App {
-  text-align: center;
+  .App {
+    text-align: center;
+    padding-bottom: 60px; /* Adjust this value to match the footer height */
 }
 
 .App-logo {

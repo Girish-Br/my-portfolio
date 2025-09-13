@@ -13,12 +13,12 @@ function Home() {
         <Particle />
         <Container className="home-content">
           <Row>
-            <Col md={6} style={{ paddingBottom: 20 }}>
+            <Col md={6} style={{ paddingBottom: 20, display: "flex", justifyContent: "center", alignItems: "center" }}>
               <Tilt>
                 <img
                   src={homeLogo}
                   alt="home pic"
-                  className="my-image" style={{borderRadius:"37% 63% 71% 29% / 30% 37% 63% 70%", maxHeight: "450px"}}
+                  className="my-image home-main-img"
                 />
               </Tilt>
             </Col>

@@ -39,9 +39,11 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand className="d-flex" style={{ borderRadius: "82% 18% 86% 14% / 60% 74% 26% 40%" }}>
-          <Tilt>
-            <img src={tabLogo} className="img-fluid logo" alt="brand" />
-          </Tilt>
+          <Link to="/" onClick={() => updateExpanded(false)}>
+            <Tilt>
+              <img src={tabLogo} className="img-fluid logo" alt="brand" />
+            </Tilt>
+          </Link>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
