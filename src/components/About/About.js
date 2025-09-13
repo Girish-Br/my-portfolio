@@ -5,8 +5,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.svg";
 import Toolstack from "./Toolstack";
-
-function About() {
+const About = () => {
   return (
     <Container fluid className="about-section">
       <Particle />

@@ -9,8 +9,7 @@ import {
   DiGit,
   DiJava,
 } from "react-icons/di";
-
-function Techstack() {
+const Techstack = () => {
   const [hoveredTool, setHoveredTool] = useState('');
 
   const handleMouseEnter = (toolName) => {

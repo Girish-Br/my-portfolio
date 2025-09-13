@@ -2,8 +2,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import { MdFlight } from "react-icons/md";
 import { GiShuttlecock } from "react-icons/gi";
-
-function AboutCard() {
+const AboutCard = () => {
   return (
     <Card className="quote-card-view">
       <Card.Body>

@@ -2,8 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import github from "../../Assets/github.png";
-
-function Projects() {
+const Projects = () => {
   return (
     <Container fluid className="project-section">
       <Particle />

@@ -5,14 +5,14 @@ import Tilt from "react-parallax-tilt";
 import Particle from "../Particle";
 import { FaRegStar } from "react-icons/fa";
 
-function Services() {
+const Services = () => {
     return (
         <section>
             <Container fluid className="home-section" id="home">
                 <Particle />
                 <Container className="home-content">
                     <Row>
-                        <Col md={5} style={{ paddingBottom: 20 }}>
+                        <Col md={5} style={{ paddingBottom: 20, display: "flex", justifyContent: "center" }}>
                             <Tilt>
                                 <img
                                     src={services}

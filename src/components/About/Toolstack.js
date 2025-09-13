@@ -13,8 +13,7 @@ import {
 import {
   SiFirebase,
 } from "react-icons/si";
-
-function Toolstack() {
+const Toolstack = () => {
   const [hoveredTool, setHoveredTool] = useState('');
 
   const handleIconHover = (toolName) => {

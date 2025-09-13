@@ -7,8 +7,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-
-function Home2() {
+const Home2 = () => {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
@@ -18,7 +17,7 @@ function Home2() {
               LET ME <span className="green"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            I've developed a love for programming, and I believe I've learned something... I think. 🤷‍♂️
+            I've developed a love for programming, and I believe I've learned something... I think. 
               <br />
               <br />I am good in
               <i>
