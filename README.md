@@ -1,2 +1,2 @@
-# apathetic-techie
-My own personal portfolio
+# My personal portfolio
+https://girish-br.github.io/my-portfolio/
