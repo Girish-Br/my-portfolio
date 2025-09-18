@@ -1,3 +1,7 @@
-# https://www.robotstxt.org/robotstxt.html
+# robots.txt for Girish BR Portfolio
+# Allow all crawlers
 User-agent: *
-Disallow:
+Allow: /
+
+# Sitemap reference
+Sitemap: https://girish-br.github.io/my-portfolio/sitemap.xml
