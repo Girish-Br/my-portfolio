@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.f38cec27.css",
-    "main.js": "/my-portfolio/static/js/main.039eb352.js",
+    "main.js": "/my-portfolio/static/js/main.e8f1b71f.js",
     "static/js/453.06178c4e.chunk.js": "/my-portfolio/static/js/453.06178c4e.chunk.js",
     "static/media/github.png": "/my-portfolio/static/media/github.d0508e1faccf0aa45626.png",
     "static/media/home-main.JPG": "/my-portfolio/static/media/home-main.5dffd035cd364977043e.JPG",
-    "static/media/Girish-BR-Resume.pdf": "/my-portfolio/static/media/Girish-BR-Resume.788a2196c6d39f628e31.pdf",
+    "static/media/Girish-BR-Resume.pdf": "/my-portfolio/static/media/Girish-BR-Resume.65039e9bcd0062f907af.pdf",
     "static/media/services.png": "/my-portfolio/static/media/services.0354bd0fb8d3fd2dd1f8.png",
     "static/media/avatar.svg": "/my-portfolio/static/media/avatar.9d5383d6be58ab18ac38325c65c42b3c.svg",
     "index.html": "/my-portfolio/index.html",
     "static/media/about.svg": "/my-portfolio/static/media/about.d0c50aaa3ff89ac9752ac62d12463470.svg",
     "main.f38cec27.css.map": "/my-portfolio/static/css/main.f38cec27.css.map",
-    "main.039eb352.js.map": "/my-portfolio/static/js/main.039eb352.js.map",
+    "main.e8f1b71f.js.map": "/my-portfolio/static/js/main.e8f1b71f.js.map",
     "453.06178c4e.chunk.js.map": "/my-portfolio/static/js/453.06178c4e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f38cec27.css",
-    "static/js/main.039eb352.js"
+    "static/js/main.e8f1b71f.js"
   ]
 }
