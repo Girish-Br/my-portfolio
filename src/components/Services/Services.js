@@ -42,6 +42,18 @@ const Services = () => {
                                 <li className="about-activity d-flex">
                                     <div><FaRegStar />&nbsp; &nbsp;</div> <div style={{ display: 'inline', paddingTop: "0.1rem" }}><h5 > I will start my work in AI&ML soon! </h5></div>
                                 </li>
+                                    <li className="about-activity d-flex">
+                                        <div><FaRegStar />&nbsp; &nbsp;</div> <div style={{ display: 'inline', paddingTop: "0.1rem" }}><h5 > UI/UX design and prototyping </h5></div>
+                                    </li>
+                                    <li className="about-activity d-flex">
+                                        <div><FaRegStar />&nbsp; &nbsp;</div> <div style={{ display: 'inline', paddingTop: "0.1rem" }}><h5 > Performance optimization </h5></div>
+                                    </li>
+                                    <li className="about-activity d-flex">
+                                        <div><FaRegStar />&nbsp; &nbsp;</div> <div style={{ display: 'inline', paddingTop: "0.1rem" }}><h5 > Cloud deployment and hosting </h5></div>
+                                    </li>
+                                    <li className="about-activity d-flex">
+                                        <div><FaRegStar />&nbsp; &nbsp;</div> <div style={{ display: 'inline', paddingTop: "0.1rem" }}><h5 > Consultation and code review </h5></div>
+                                    </li>
                             </ul>
 
                         </Col>

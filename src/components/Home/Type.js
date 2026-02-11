@@ -3,7 +3,7 @@ import Typewriter from "typewriter-effect";
 const Type = () => {
   return (
     <>
-      This is the official GitHub portfolio of Girish BR, a React.js Frontend Developer.
+      This is the official GitHub portfolio of Girish BR, a React.js Frontend Developer with 6+ years of experience.
       <br/>
       <Typewriter
         options={{
