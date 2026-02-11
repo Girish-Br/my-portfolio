@@ -1,0 +1,41 @@
+version: 0.2
+
+env:
+  variables:
+    # Replace with your bucket name
+    S3_BUCKET_NAME: "girish-br-portfolio"
+    # Optional: CloudFront distribution ID if you want to invalidate cache
+    CLOUDFRONT_DISTRIBUTION_ID: "E3TITC3M7NUXAB"
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 20
+    commands:
+      - echo "Installing dependencies..."
+      - npm install
+
+  pre_build:
+    commands:
+      - echo "Starting build..."
+      - npm run build
+
+  build:
+    commands:
+      - echo "Build finished."
+
+  post_build:
+    commands:
+      - echo "Deploying to S3..."
+      - aws s3 sync build/ s3://$S3_BUCKET_NAME/ --delete
+      - echo "Deployment to S3 complete."
+      # Optional: Invalidate CloudFront cache
+      - if [ ! -z "$CLOUDFRONT_DISTRIBUTION_ID" ]; then
+          echo "Invalidating CloudFront cache...";
+          aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths "/*";
+        fi
+
+artifacts:
+  files:
+    - '**/*'
+  base-directory: build
