@@ -29,7 +29,7 @@ const App = () => {
   }, []);
 
   return (
-    <Router basename="/my-portfolio">
+    <Router>
       <Preloader load={loading} />
       <div className="App" id={loading ? "no-scroll" : "scroll"}>
         <Navbar />
