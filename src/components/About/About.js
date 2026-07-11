@@ -7,7 +7,6 @@ import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.svg";
 import Toolstack from "./Toolstack";
 import SkillsComponent from "./SkillsComponent";
-import ExperienceComponent from "./ExperienceComponent";
 import SEOComponent from "./SEOComponent";
 
 const About = () => {
@@ -43,8 +42,6 @@ const About = () => {
           <Techstack />
 
           <SkillsComponent />
-
-          <ExperienceComponent />
 
           <h1 className="project-heading">
             <strong className="green">Tools</strong> I use

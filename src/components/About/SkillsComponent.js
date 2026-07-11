@@ -16,6 +16,10 @@ const SkillsComponent = () => {
       skills: ["MongoDB", "MySQL", "Firebase"]
     },
     {
+      category: "GenAI & AI Workflows",
+      skills: ["AI-Assisted Development", "React App Migration with AI", "Prompt Engineering", "Claude / GenAI Tools"]
+    },
+    {
       category: "Tools & Platforms",
       skills: ["Git", "GitHub", "Docker", "Jenkins", "Postman", "VS Code"]
     }

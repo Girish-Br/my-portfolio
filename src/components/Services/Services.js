@@ -28,7 +28,10 @@ const Services = () => {
                             </h1>
                             <ul>
                                 <li className="about-activity d-flex">
-                                    <div><FaRegStar />&nbsp; &nbsp;</div> <div style={{ display: 'inline', paddingTop: "0.1rem" }}><h5 > Web application development with highly responsive design </h5></div>
+                                    <div><FaRegStar />&nbsp; &nbsp;</div> <div style={{ display: 'inline', paddingTop: "0.1rem" }}><h5 > Complete web application development </h5></div>
+                                </li>
+                                <li className="about-activity d-flex">
+                                    <div><FaRegStar />&nbsp; &nbsp;</div> <div style={{ display: 'inline', paddingTop: "0.1rem" }}><h5 > Effective React migration from older versions to latest </h5></div>
                                 </li>
                                 <li className="about-activity d-flex">
                                     <div><FaRegStar />&nbsp; &nbsp;</div> <div style={{ display: 'inline', paddingTop: "0.1rem" }}><h5 > API development </h5></div>
@@ -42,18 +45,18 @@ const Services = () => {
                                 <li className="about-activity d-flex">
                                     <div><FaRegStar />&nbsp; &nbsp;</div> <div style={{ display: 'inline', paddingTop: "0.1rem" }}><h5 > I will start my work in AI&ML soon! </h5></div>
                                 </li>
-                                    <li className="about-activity d-flex">
-                                        <div><FaRegStar />&nbsp; &nbsp;</div> <div style={{ display: 'inline', paddingTop: "0.1rem" }}><h5 > UI/UX design and prototyping </h5></div>
-                                    </li>
-                                    <li className="about-activity d-flex">
-                                        <div><FaRegStar />&nbsp; &nbsp;</div> <div style={{ display: 'inline', paddingTop: "0.1rem" }}><h5 > Performance optimization </h5></div>
-                                    </li>
-                                    <li className="about-activity d-flex">
-                                        <div><FaRegStar />&nbsp; &nbsp;</div> <div style={{ display: 'inline', paddingTop: "0.1rem" }}><h5 > Cloud deployment and hosting </h5></div>
-                                    </li>
-                                    <li className="about-activity d-flex">
-                                        <div><FaRegStar />&nbsp; &nbsp;</div> <div style={{ display: 'inline', paddingTop: "0.1rem" }}><h5 > Consultation and code review </h5></div>
-                                    </li>
+                                <li className="about-activity d-flex">
+                                    <div><FaRegStar />&nbsp; &nbsp;</div> <div style={{ display: 'inline', paddingTop: "0.1rem" }}><h5 > UI/UX design and prototyping </h5></div>
+                                </li>
+                                <li className="about-activity d-flex">
+                                    <div><FaRegStar />&nbsp; &nbsp;</div> <div style={{ display: 'inline', paddingTop: "0.1rem" }}><h5 > Performance optimization </h5></div>
+                                </li>
+                                <li className="about-activity d-flex">
+                                    <div><FaRegStar />&nbsp; &nbsp;</div> <div style={{ display: 'inline', paddingTop: "0.1rem" }}><h5 > Cloud deployment and hosting </h5></div>
+                                </li>
+                                <li className="about-activity d-flex">
+                                    <div><FaRegStar />&nbsp; &nbsp;</div> <div style={{ display: 'inline', paddingTop: "0.1rem" }}><h5 > Consultation and code review </h5></div>
+                                </li>
                             </ul>
 
                         </Col>

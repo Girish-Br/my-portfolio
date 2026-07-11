@@ -564,7 +564,6 @@ button:focus {
 .about-section {
   position: relative !important;
   padding-top: 50px !important;
-  padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   min-height: 100vh;
   color: white !important;
