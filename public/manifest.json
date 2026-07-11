@@ -1,14 +1,27 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Girish BR Portfolio",
+  "name": "Girish BR | Frontend Developer Portfolio",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "favicon-64.png",
+      "sizes": "64x64",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
     }
   ],
-  "start_url": ".",
+  "start_url": "/my-portfolio/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
