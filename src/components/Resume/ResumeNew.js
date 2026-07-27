@@ -6,6 +6,7 @@ import pdf from "../../Assets/Girish_BR_Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+import SEOComponent from "../About/SEOComponent";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 const ResumeNew = () => {
   const [width, setWidth] = useState(1200);
@@ -16,6 +17,13 @@ const ResumeNew = () => {
 
   return (
     <div>
+      <SEOComponent
+        title="Resume | Senior React Developer & React Consultant"
+        description="View the resume of Girish BR, a senior React developer and web application development freelancer with experience in React, Node.js, and modern front-end architecture."
+        url="https://girish-br.github.io/my-portfolio/resume"
+        canonicalUrl="https://girish-br.github.io/my-portfolio/resume"
+        keywords="senior React developer resume, React consultant, freelance web developer CV, web application development freelancer"
+      />
       <Container fluid className="resume-section">
         <Particle />
         <Row style={{ justifyContent: "center", position: "relative" }}>

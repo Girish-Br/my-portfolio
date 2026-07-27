@@ -2,9 +2,18 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import github from "../../Assets/github.png";
+import SEOComponent from "../About/SEOComponent";
 const Projects = () => {
   return (
-    <Container fluid className="project-section">
+    <>
+      <SEOComponent
+        title="Portfolio Projects | React Developer Freelancer"
+        description="Browse React and web application development projects by Girish BR, including modern UI builds, business websites, and scalable front-end solutions."
+        url="https://girish-br.github.io/my-portfolio/project"
+        canonicalUrl="https://girish-br.github.io/my-portfolio/project"
+        keywords="React developer freelancer, React portfolio, web application development projects, freelance React developer"
+      />
+      <Container fluid className="project-section">
       <Particle />
       <Container>
         <h1 className="project-heading">
@@ -48,6 +57,7 @@ const Projects = () => {
         </Row>
       </Container>
     </Container>
+    </>
   );
 };
 

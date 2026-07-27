@@ -3,16 +3,17 @@ import Typewriter from "typewriter-effect";
 const Type = () => {
   return (
     <>
-      This is the official GitHub portfolio of Girish BR, a React.js Frontend Developer around 7 years of experience.
+      This is the official GitHub portfolio of Girish BR, a senior React developer, React consultant, and freelance web application development specialist with 6+ years of experience.
       <br/>
       <Typewriter
         options={{
           strings: [
-            "Frontend Developer",
-            "GenAI-Powered Web Developer",
-            "Open Source Contributor",
+            "React Developer Freelancer",
+            "Senior React Developer",
+            "React Consultant",
+            "Web Application Development Freelancer",
             "MERN Stack Developer",
-            "Freelancer",
+            "GenAI-Powered Web Developer"
           ],
           autoStart: true,
           loop: true,

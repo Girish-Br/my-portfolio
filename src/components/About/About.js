@@ -13,9 +13,11 @@ const About = () => {
   return (
     <>
       <SEOComponent 
-        title="About Girish BR | React Developer & MERN Stack Expert"
-        description="Learn about Girish BR's background, skills in React, Node.js, and 6+ years of web development experience."
+        title="About Girish BR | Senior React Developer, MERN Stack Expert & Freelance Consultant"
+        description="Learn about Girish BR's background as a senior React developer, freelance consultant, and MERN stack specialist with 6+ years of experience."
         url="https://girish-br.github.io/my-portfolio/about"
+        canonicalUrl="https://girish-br.github.io/my-portfolio/about"
+        keywords="senior React developer, React consultant, freelance web developer, MERN stack expert, web application development freelancer"
       />
       <Container fluid className="about-section">
         <Particle />

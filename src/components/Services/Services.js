@@ -4,10 +4,18 @@ import services from "../../Assets/services.png";
 import Tilt from "react-parallax-tilt";
 import Particle from "../Particle";
 import { FaRegStar } from "react-icons/fa";
+import SEOComponent from "../About/SEOComponent";
 
 const Services = () => {
     return (
         <section>
+            <SEOComponent
+                title="React Developer Freelancer | Web Application Development Services"
+                description="Hire a senior React developer and freelance web application development consultant for React apps, migrations, APIs, maintenance, and performance tuning."
+                url="https://girish-br.github.io/my-portfolio/services"
+                canonicalUrl="https://girish-br.github.io/my-portfolio/services"
+                keywords="React developer freelancer, web application development freelancer, React consultant, senior React developer, web app development"
+            />
             <Container fluid className="home-section" id="home">
                 <Particle />
                 <Container className="home-content">
@@ -24,7 +32,7 @@ const Services = () => {
                         </Col>
                         <Col md={7} className="home-header">
                             <h1 style={{ paddingBottom: 15 }} className="heading">
-                                Hi there! I'm available to work on{" "}
+                                Senior React developer and web application development freelancer available for hire{" "}
                             </h1>
                             <ul>
                                 <li className="about-activity d-flex">
